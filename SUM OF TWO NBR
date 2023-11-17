@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int firstnbr,secondnbr,ADD;
+    printf("enter two numbers");
+    scanf("%d%d",&firstnbr,&secondnbr);
+    ADD=firstnbr+secondnbr;
+    printf("RESULT is %d",ADD);
+    return 0;
+}
