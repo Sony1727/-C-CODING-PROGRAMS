@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float firstnbr,secondnbr,thirdnbr,AVG;
+    printf("enter three numbers");
+    scanf("%f%f%f",&firstnbr,&secondnbr,&thirdnbr);
+    AVG=(firstnbr+secondnbr+thirdnbr)/3;
+    printf("RESULT = %f",AVG);
+
+    return 0;
+}
