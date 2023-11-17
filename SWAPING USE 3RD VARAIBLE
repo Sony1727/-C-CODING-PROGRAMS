@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=24,b=45,temp;
+    printf("Enter the numbers");
+    scanf("%d%d",&a,&b);
+printf("BEFORE SWAPPING \n");
+printf("%d \t %d",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("AFTER SWAPPING\t");
+printf("%d \t %d",a,b);
+    return 0;
+}
