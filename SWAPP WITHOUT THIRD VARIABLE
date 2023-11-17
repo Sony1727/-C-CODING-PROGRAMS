@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=80;
+    printf("Enter the numbers");
+    scanf("%d%d",&a,&b);
+    printf("BEFORE SWAPPING \t");
+    printf("%d \t %d",a,b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("AFTER SWAPPING \t");
+    printf("%d \t %d",a,b);
+
+    return 0;
+}
