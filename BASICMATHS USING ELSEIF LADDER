@@ -25,7 +25,6 @@ else if(choice==2)
 }
 else{
     printf("FOOL");
-    printf("%d",result);
 }
     return 0;
 }
