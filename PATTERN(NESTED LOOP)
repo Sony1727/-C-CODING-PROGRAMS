@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int limit,i,j;
+    printf("enter the number");
+    scanf("%d",&limit);
+    for(i=1;i<=limit;i++){
+        for(j=0;j<i;j++){
+            printf("%c",'A'+j);
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
