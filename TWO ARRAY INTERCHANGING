@@ -23,6 +23,7 @@ int main (void){
     for(i=0;i<size;i++){
         printf(" %d\t",array1[i]);
     } printf("\n");
+
     printf("Array2:");
     for(i=0;i<size;i++){
         printf("%d\t",array2[i]);
