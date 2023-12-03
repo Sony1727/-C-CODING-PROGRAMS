@@ -1,0 +1,29 @@
+#include <stdio.h>
+int a[50];
+int getArray();
+int displayArray();
+int main()
+{
+    printf("Enter the values  of the array:");
+    getArray();
+    printf("values of the array \n");
+    displayArray();
+    return 0;
+}
+
+int getArray()
+{
+    int i;
+    for(i=0;i<4;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+}
+int displayArray(){
+ int i;
+ for(i=0;i<4;i++)
+ {
+     printf("%d",a[i]);
+ }
+
+}
