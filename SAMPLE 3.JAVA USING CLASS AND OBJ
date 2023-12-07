@@ -1,0 +1,37 @@
+package Sample1;
+
+public class sample3 {
+
+        public static void main(String a[]){
+            int l=22;
+            int b=32;
+            int c=28;
+            int f=90;
+            Sum s=new Sum();
+            s.calculateSum(l,b);
+            s.displaysum();
+
+            s.calculateSum(c,f);
+            s.displaysum();
+
+
+
+
+        }
+    }
+
+
+
+
+package Sample1;
+
+public class Sum {
+    int res;
+    void calculateSum(int k,int m){
+     res=k+m;
+    }
+    void displaysum(){
+        System.out.println("res");
+
+    }
+}
